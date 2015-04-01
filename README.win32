@@ -1,0 +1,5 @@
+call "%VS120COMNTOOLS%..\..\VC\bin\vcvars32.bat"
+make.bat Build\Tools\OhNetGen.exe
+make.bat generate-makefiles
+(make.bat CpCppStd DvCppStd)
+make.bat

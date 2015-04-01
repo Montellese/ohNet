@@ -78,7 +78,7 @@ installlibdir = $(installdir)\lib
 installincludedir = $(installdir)\include
 mkdir = Scripts\mkdir.bat
 rmdir = Scripts\rmdir.bat
-uset4 = no
+uset4 = yes
 
 default : all
 

@@ -3,8 +3,78 @@
         <publisher>Upnp</publisher>
         <dcpdir>MediaServer_3</dcpdir>
         <domain>upnp.org</domain>
+        <type>AVTransport</type>
+        <version>1</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>AVTransport</type>
+        <version>2</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
         <type>ConnectionManager</type>
         <version>1</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>ConnectionManager</type>
+        <version>2</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>ContentDirectory</type>
+        <version>1</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>ContentDirectory</type>
+        <version>2</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>ContentDirectory</type>
+        <version>3</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>RenderingControl</type>
+        <version>1</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>RenderingControl</type>
+        <version>2</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>ScheduledRecording</type>
+        <version>1</version>
+    </service>
+    <service>
+        <publisher>Upnp</publisher>
+        <dcpdir>MediaServer_3</dcpdir>
+        <domain>upnp.org</domain>
+        <type>ScheduledRecording</type>
+        <version>2</version>
     </service>
     <service>
         <publisher>OpenHome</publisher>
