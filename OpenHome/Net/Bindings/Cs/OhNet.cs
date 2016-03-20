@@ -532,7 +532,6 @@ namespace OpenHome.Net.Core
         /// <summary>
         /// Set User-Agent reported by HTTP clients
         /// </summary>
-        /// <remarks>Only used if DvEnableBonjour is true.</remarks>
         public string HttpUserAgent { get; set; }
 
         private uint iDvUpnpWebServerPort;

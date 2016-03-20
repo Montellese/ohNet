@@ -673,6 +673,22 @@ JNIEXPORT void JNICALL Java_org_openhome_net_core_InitParams_OhNetInitParamsSetD
 
 /*
  * Class:     org_openhome_net_core_InitParams
+ * Method:    OhNetInitParamsSetHttpUserAgent
+ * Signature: (JLjava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_org_openhome_net_core_InitParams_OhNetInitParamsSetHttpUserAgent
+(JNIEnv *aEnv, jclass aClass, jlong aParams, jstring aHttpUserAgent)
+{
+    OhNetHandleInitParams params = (OhNetHandleInitParams) (size_t)aParams;
+    const char* httpUserAgent = (*aEnv)->GetStringUTFChars(aEnv, aHttpUserAgent, NULL);
+    aClass = aClass;
+
+    OhNetInitParamsSetHttpUserAgent(params, httpUserAgent);
+    (*aEnv)->ReleaseStringUTFChars(aEnv, aHttpUserAgent, httpUserAgent);
+}
+
+/*
+ * Class:     org_openhome_net_core_InitParams
  * Method:    OhNetInitParamsSetLogOutput
  * Signature: (JLorg/openhome/net/core/IMessageListener;)J
  */
